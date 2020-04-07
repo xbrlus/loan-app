@@ -148,7 +148,7 @@
     </context>
     <sba:DateOfBirth
       contextRef="c-04"
-      id="business_owners_information_data.1.Date_Of_Birth">12/31/1990</sba:DateOfBirth>
+      id="business_owners_information_data.1.Date_Of_Birth">1990-12-31</sba:DateOfBirth>
     <sba:PlaceOfBirth
       contextRef="c-03"
       id="business_owners_information_data.1.Place_Of_Birth">Sacramento, CA</sba:PlaceOfBirth>

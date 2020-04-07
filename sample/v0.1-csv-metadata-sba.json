@@ -349,7 +349,7 @@
 			"url": "additional_information_facts.csv"
 		}
 	},
-	"parameterURL": "report_parameters_sba.csv",
+	"parameterURL": "../sample/report_parameters_sba.csv",
 	"dimensions": {
 		"entity": "$EI"
 	}
