@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--extracted from OIM D:\XII\Specs\GitLab\sba\us-sba\disaster-loan-assistance\xbrl-csv\csv-metadata-sba.json-->
+<xbrl
+  xmlns="http://www.xbrl.org/2003/instance"
+  xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
+  xmlns:link="http://www.xbrl.org/2003/linkbase"
+  xmlns:sba="https://www.sba.gov/taxonomy/2020-04-30"
+  xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
+  xmlns:xlink="http://www.w3.org/1999/xlink">
+    <link:schemaRef
+      xlink:href="https://www.sba.gov/taxonomy/2020-04-30/elts.xsd"
+      xlink:type="simple"/>
+    <context id="c-01">
+        <entity>
+            <identifier scheme="http://www.sba.gov/id">1234</identifier>
+        </entity>
+        <period>
+            <forever/>
+        </period>
+    </context>
+    <sba:EntityCurrentLegalOrRegisteredName
+      contextRef="c-01"
+      id="business_information_data.1.Entity_current_legal_or_registered_name">ABC Small Business</sba:EntityCurrentLegalOrRegisteredName>
+    <sba:EINSoleProprietorship
+      contextRef="c-01"
+      id="business_information_data.1.EIN_for_Sole_Proprietorship">123456789</sba:EINSoleProprietorship>
+    <sba:WhetherEntityNon-ProfitOrganization
+      contextRef="c-01"
+      id="business_information_data.1.Whether_Entity_is_a_Non-Profit_Organization">false</sba:WhetherEntityNon-ProfitOrganization>
+    <sba:WhetherEntityFranchise
+      contextRef="c-01"
+      id="business_information_data.1.Whether_Entity_is_a_Franchise">false</sba:WhetherEntityFranchise>
+    <unit id="u-01">
+        <measure>iso4217:USD</measure>
+    </unit>
+    <sba:GrossRevenues
+      contextRef="c-01"
+      decimals="INF"
+      id="business_information_data.1.Gross_Revenue_for_the_Twelve_Month_Prior_to_the_Date_of_the_Disaster_January_31_2020"
+      unitRef="u-01">500000</sba:GrossRevenues>
+    <sba:CostofGoodsSold
+      contextRef="c-01"
+      decimals="INF"
+      id="business_information_data.1.Cost_of_Good_Sold_for_the_Twelve_Month_Prior_to_the_Date_of_the_Disaster_January_31_2020"
+      unitRef="u-01">250000</sba:CostofGoodsSold>
+    <sba:LostRentsDuetotheDisaster
+      contextRef="c-01"
+      decimals="INF"
+      id="business_information_data.1.Lost_Rents_Due_to_the_Disaster"
+      unitRef="u-01">10000</sba:LostRentsDuetotheDisaster>
+    <sba:CostofOperationforNon-ProfitOrganization
+      contextRef="c-01"
+      decimals="INF"
+      id="business_information_data.1.Cost_of_Operation_for_NonProfit_Organization_for_the_Twelve_Month_Prior_to_the_Date_of_the_Disaster_January_31_2020"
+      unitRef="u-01">400000</sba:CostofOperationforNon-ProfitOrganization>
+    <sba:CompensationOtherSourcesReceived
+      contextRef="c-01"
+      decimals="INF"
+      id="business_information_data.1.Compensation_From_Other_Sources_Received"
+      unitRef="u-01">0</sba:CompensationOtherSourcesReceived>
+    <sba:DescriptionofOtherCompensationSources
+      contextRef="c-01"
+      id="business_information_data.1.Description_of_Other_Compensation_Sources">0</sba:DescriptionofOtherCompensationSources>
+    <sba:PrimaryBusinessAddress
+      contextRef="c-01"
+      id="business_information_data.1.Primary_Business_Address">2000 Broadway</sba:PrimaryBusinessAddress>
+    <sba:City contextRef="c-01" id="business_information_data.1.City">Redwood City</sba:City>
+    <sba:State contextRef="c-01" id="business_information_data.1.State">California</sba:State>
+    <sba:County contextRef="c-01" id="business_information_data.1.County">San Mateo</sba:County>
+    <sba:Zip contextRef="c-01" id="business_information_data.1.Zip">94063</sba:Zip>
+    <sba:BusinessPhone
+      contextRef="c-01"
+      id="business_information_data.1.Business_Phone">650-000-0000</sba:BusinessPhone>
+    <sba:EmailAddress
+      contextRef="c-01"
+      id="business_information_data.1.Email_Address">ABC_Small_Business@gmail.com</sba:EmailAddress>
+    <context id="c-02">
+        <entity>
+            <identifier scheme="http://www.sba.gov/id">1234</identifier>
+        </entity>
+        <period>
+            <instant>2020-03-31</instant>
+        </period>
+    </context>
+    <sba:DateBusinessEstablished
+      contextRef="c-02"
+      id="business_information_data.1.Date_Business_Established">2018-01-31</sba:DateBusinessEstablished>
+    <sba:CurrentOwnershipSince
+      contextRef="c-02"
+      id="business_information_data.1.Current_Ownership_Since">2018-01-31</sba:CurrentOwnershipSince>
+    <sba:BusinessActivity
+      contextRef="c-01"
+      id="business_information_data.1.Business_Activity">Legal Services</sba:BusinessActivity>
+    <unit id="u-02">
+        <measure>pure</measure>
+    </unit>
+    <sba:NumberofEmployees
+      contextRef="c-02"
+      decimals="INF"
+      id="business_information_data.1.Number_of_Employees"
+      unitRef="u-02">10</sba:NumberofEmployees>
+    <context id="c-03">
+        <entity>
+            <identifier scheme="http://www.sba.gov/id">1234</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="sba:BusinessOwnerorAgentAxis">
+                    <sba:BusinessOwnerOrAgentDomain>1</sba:BusinessOwnerOrAgentDomain>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <forever/>
+        </period>
+    </context>
+    <sba:FirstName
+      contextRef="c-03"
+      id="business_owners_information_data.1.First_Name">John</sba:FirstName>
+    <sba:LastName
+      contextRef="c-03"
+      id="business_owners_information_data.1.Last_Name">Smith</sba:LastName>
+    <sba:MobilePhone
+      contextRef="c-03"
+      id="business_owners_information_data.1.Mobile_Phone">917-555-5555</sba:MobilePhone>
+    <sba:TitleOrOffice
+      contextRef="c-03"
+      id="business_owners_information_data.1.Title_or_Office">Owner</sba:TitleOrOffice>
+    <sba:OwnershipPercent
+      contextRef="c-03"
+      id="business_owners_information_data.1.Ownership_Percent">100</sba:OwnershipPercent>
+    <sba:EmailAddress
+      contextRef="c-03"
+      id="business_owners_information_data.1.Email_Address">JohnSmith@gmail.com</sba:EmailAddress>
+    <sba:SSN
+      contextRef="c-03"
+      id="business_owners_information_data.1.SSN">333-33-3333</sba:SSN>
+    <context id="c-04">
+        <entity>
+            <identifier scheme="http://www.sba.gov/id">1234</identifier>
+            <segment>
+                <xbrldi:typedMember dimension="sba:BusinessOwnerorAgentAxis">
+                    <sba:BusinessOwnerOrAgentDomain>1</sba:BusinessOwnerOrAgentDomain>
+                </xbrldi:typedMember>
+            </segment>
+        </entity>
+        <period>
+            <instant>2020-03-31</instant>
+        </period>
+    </context>
+    <sba:DateOfBirth
+      contextRef="c-04"
+      id="business_owners_information_data.1.Date_Of_Birth">1990-01-10</sba:DateOfBirth>
+    <sba:PlaceOfBirth
+      contextRef="c-03"
+      id="business_owners_information_data.1.Place_Of_Birth">Sacramento, CA</sba:PlaceOfBirth>
+    <sba:WhetherUSCitizen
+      contextRef="c-03"
+      id="business_owners_information_data.1.Whether_US_Citizen">true</sba:WhetherUSCitizen>
+    <sba:ResidentialStreetAddress
+      contextRef="c-03"
+      id="business_owners_information_data.1.Residential_Street_Address">5 Windy Way</sba:ResidentialStreetAddress>
+    <sba:City
+      contextRef="c-03"
+      id="business_owners_information_data.1.City">Redwood City</sba:City>
+    <sba:State
+      contextRef="c-03"
+      id="business_owners_information_data.1.State">California</sba:State>
+    <sba:County
+      contextRef="c-03"
+      id="business_owners_information_data.1.County">San Mateo</sba:County>
+    <sba:Zip
+      contextRef="c-03"
+      id="business_owners_information_data.1.Zip">94065</sba:Zip>
+    <sba:WhetherSubjectToFormalCriminalCharges
+      contextRef="c-03"
+      id="business_owners_information_data.1.Whether_you_are_presently_subject_to_an_indictment_criminal_information_arraignment_or_other_means_by_which_formal_criminal_charges_are_brought_in_any_jurisdiction">false</sba:WhetherSubjectToFormalCriminalCharges>
+    <sba:WhetherArrestedInThePastSixMonthsForAnyCriminalOffense
+      contextRef="c-03"
+      id="business_owners_information_data.1.Whether_you_have_been_arrested_in_the_past_six_months_for_any_criminal_offense">false</sba:WhetherArrestedInThePastSixMonthsForAnyCriminalOffense>
+    <sba:WhetherConvictedPleadGuiltyPlacedOnParol
+      contextRef="c-03"
+      id="business_owners_information_data.1.Whether_for_any_criminal_offense_other_than_a_minor_vehicle_violation_have_you_ever_been_convicted_plead_guilty_plead_contendere_been_placed_on_pretrial_diversion_or_been_placed_on_any_form_of_parole_or_probation_including_probation_before_judgment">false</sba:WhetherConvictedPleadGuiltyPlacedOnParol>
+    <sba:WhetherConvictedWithCrimialOffense
+      contextRef="c-01"
+      id="additional_information_data.1.Whether_in_the_past_year__the_business_or_a_listed_owner_been_convicted_of_a_criminal_offense">false</sba:WhetherConvictedWithCrimialOffense>
+    <sba:WhetherFederalGrantsSuspendedOrDebarred
+      contextRef="c-01"
+      id="additional_information_data.1.Whether_the_applicant_or_any_listed_owner_currently_suspended_or_debarred_from_contracting_with_the_Federal_government_or_receiving_Federal_grants_or_loans">false</sba:WhetherFederalGrantsSuspendedOrDebarred>
+    <sba:WhetheToBeConsideredForAdvanceUpto10000
+      contextRef="c-01"
+      id="additional_information_data.1.Whether_like_to_be_considered_for_an_advance_of_up_to_10000">false</sba:WhetheToBeConsideredForAdvanceUpto10000>
+    <sba:BankName
+      contextRef="c-01"
+      id="additional_information_data.1.Bank_Name">Wells Fargo</sba:BankName>
+    <sba:AccountNumber
+      contextRef="c-01"
+      id="additional_information_data.1.Account_Number">765432123</sba:AccountNumber>
+    <sba:RoutingNumber
+      contextRef="c-01"
+      id="additional_information_data.1.Routing_Number">88888888</sba:RoutingNumber>
+    <sba:NameOfIndividualAssistedinApplicationCompletion
+      contextRef="c-01"
+      id="additional_information_data.1.Name_of_Individual_Assisted_in_Application_Completion">Jane Doe</sba:NameOfIndividualAssistedinApplicationCompletion>
+    <sba:FeeChargedOrAgreedUponForApplicationCompletionAssistance
+      contextRef="c-01"
+      decimals="INF"
+      id="additional_information_data.1.Fee_Charged_or_Agreed_Upon_For_Application_Completion_Assistance"
+      unitRef="u-01">25</sba:FeeChargedOrAgreedUponForApplicationCompletionAssistance>
+    <sba:WhetherPermissiongivenforSBAtoDiscussAnyPortionofApplicationRepresentativeWhoAssistedinApplicationCompletion
+      contextRef="c-01"
+      id="additional_information_data.1.Whether_Permission_given_for_SBA_to_Discuss_Any_Portion_of_Application_Representative_Who_Assisted_in_Application_Completion">true</sba:WhetherPermissiongivenforSBAtoDiscussAnyPortionofApplicationRepresentativeWhoAssistedinApplicationCompletion>
+</xbrl>

@@ -1,0 +1,356 @@
+{
+	"documentInfo": {
+		"documentType": "http://xbrl.org/YYYY/xbrl-csv",
+		"namespaces": {
+			"sba": "https://www.sba.gov/taxonomy/2020-04-30",
+			"iso4217": "http://www.xbrl.org/2003/iso4217",
+			"ei": "http://www.sba.gov/id"
+		},
+		"taxonomy": [
+			"https://raw.githubusercontent.com/xbrlus/loan-app/v0.1/www.sba.gov/taxonomy/2020-04-30/elts.xsd"
+		]
+	},
+	"tableTemplates": {
+		"business_information_template": {
+			"columns": {
+				"Entity_current_legal_or_registered_name": {
+					"dimensions": {
+						"concept": "sba:EntityCurrentLegalOrRegisteredName"
+					}
+				},
+				"Entity_trading_name": {
+					"dimensions": {
+						"concept": "sba:EntityTradingName"
+					}
+				},
+				"EIN_for_Sole_Proprietorship": {
+					"dimensions": {
+						"concept": "sba:EINSoleProprietorship"
+					}
+				},
+				"SSN_for_Sole_Proprietorship": {
+					"dimensions": {
+						"concept": "sba:SSNSoleProprietorship"
+					}
+				},
+				"Entity_Legal_Type": {
+					"dimensions": {
+						"concept": "sba:EntityLegalType"
+					}
+				},
+				"Whether_Entity_is_a_Non-Profit_Organization": {
+					"dimensions": {
+						"concept": "sba:WhetherEntityNon-ProfitOrganization"
+					}
+				},
+				"Whether_Entity_is_a_Franchise": {
+					"dimensions": {
+						"concept": "sba:WhetherEntityFranchise"
+					}
+				},
+				"Gross_Revenue_for_the_Twelve_Month_Prior_to_the_Date_of_the_Disaster_January_31_2020": {
+					"dimensions": {
+						"concept": "sba:GrossRevenues",
+						"unit": "iso4217:USD"
+					}
+				},
+				"Cost_of_Good_Sold_for_the_Twelve_Month_Prior_to_the_Date_of_the_Disaster_January_31_2020": {
+					"dimensions": {
+						"concept": "sba:CostofGoodsSold",
+						"unit": "iso4217:USD"
+					}
+				},
+				"Lost_Rents_Due_to_the_Disaster": {
+					"dimensions": {
+						"concept": "sba:LostRentsDuetotheDisaster",
+						"unit": "iso4217:USD"
+					}
+				},
+				"Cost_of_Operation_for_NonProfit_Organization_for_the_Twelve_Month_Prior_to_the_Date_of_the_Disaster_January_31_2020": {
+					"dimensions": {
+						"concept": "sba:CostofOperationforNon-ProfitOrganization",
+						"unit": "iso4217:USD"
+					}
+				},
+				"Combined_Annual_Operating_Expenses_for_the_Twelve_Months_Prior_to_the_Date_of_the_Disaster_January_31_2020_for_All_Secular_Social_Services_Provided_by_the_Faith_Based_Entity": {
+					"dimensions": {
+						"concept": "sba:AnnualOperatingExpensesSecularSocialServicesbytheFaithBasedEntity",
+						"unit": "iso4217:USD"
+					}
+				},
+				"Details_of_Secular_Social_Services_Provided_by_the_Faith_Based_Entity": {
+					"dimensions": {
+						"concept": "sba:DetailsSecularSocialServicesProvidedbytheFaithBasedEntity"
+					}
+				},
+				"Compensation_From_Other_Sources_Received": {
+					"dimensions": {
+						"concept": "sba:CompensationOtherSourcesReceived",
+						"unit": "iso4217:USD"
+					}
+				},
+				"Description_of_Other_Compensation_Sources": {
+					"dimensions": {
+						"concept": "sba:DescriptionofOtherCompensationSources"
+					}
+				},
+				"Primary_Business_Address": {
+					"dimensions": {
+						"concept": "sba:PrimaryBusinessAddress"
+					}
+				},
+				"City": {
+					"dimensions": {
+						"concept": "sba:City"
+					}
+				},
+				"State": {
+					"dimensions": {
+						"concept": "sba:State"
+					}
+				},
+				"County": {
+					"dimensions": {
+						"concept": "sba:County"
+					}
+				},
+				"Zip": {
+					"dimensions": {
+						"concept": "sba:Zip"
+					}
+				},
+				"Business_Phone": {
+					"dimensions": {
+						"concept": "sba:BusinessPhone"
+					}
+				},
+				"Alternative_Business_Phone": {
+					"dimensions": {
+						"concept": "sba:AlternativeBusinessPhone"
+					}
+				},
+				"Business_Fax": {
+					"dimensions": {
+						"concept": "sba:BusinessFax"
+					}
+				},
+				"Email_Address": {
+					"dimensions": {
+						"concept": "sba:EmailAddress"
+					}
+				},
+				"Date_Business_Established": {
+					"dimensions": {
+						"concept": "sba:DateBusinessEstablished",
+						"period": "$p1"
+					}
+				},
+				"Current_Ownership_Since": {
+					"dimensions": {
+						"concept": "sba:CurrentOwnershipSince",
+						"period": "$p1"
+					}
+				},
+				"Business_Activity": {
+					"dimensions": {
+						"concept": "sba:BusinessActivity"
+					}
+				},
+				"Detailed_Business_Activity": {
+					"dimensions": {
+						"concept": "sba:DetailedBusinessActivity"
+					}
+				},
+				"Number_of_Employees": {
+					"dimensions": {
+						"concept": "sba:NumberofEmployees",
+						"period": "$p1"
+					}
+				}
+			},
+			"transposed": true
+		},
+		"business_owners_information_template": {
+			"columns": {
+				"First_Name": {
+					"dimensions": {
+						"concept": "sba:FirstName"
+					}
+				},
+				"Last_Name": {
+					"dimensions": {
+						"concept": "sba:LastName"
+					}
+				},
+				"Mobile_Phone": {
+					"dimensions": {
+						"concept": "sba:MobilePhone"
+					}
+				},
+				"Title_or_Office": {
+					"dimensions": {
+						"concept": "sba:TitleOrOffice"
+					}
+				},
+				"Ownership_Percent": {
+					"dimensions": {
+						"concept": "sba:OwnershipPercent"
+					}
+				},
+				"Email_Address": {
+					"dimensions": {
+						"concept": "sba:EmailAddress"
+					}
+				},
+				"SSN": {
+					"dimensions": {
+						"concept": "sba:SSN"
+					}
+				},
+				"Date_Of_Birth": {
+					"dimensions": {
+						"concept": "sba:DateOfBirth",
+						"period": "$p1"
+					}
+				},
+				"Place_Of_Birth": {
+					"dimensions": {
+						"concept": "sba:PlaceOfBirth"
+					}
+				},
+				"Whether_US_Citizen": {
+					"dimensions": {
+						"concept": "sba:WhetherUSCitizen"
+					}
+				},
+				"Residential_Street_Address": {
+					"dimensions": {
+						"concept": "sba:ResidentialStreetAddress"
+					}
+				},
+				"City": {
+					"dimensions": {
+						"concept": "sba:City"
+					}
+				},
+				"State": {
+					"dimensions": {
+						"concept": "sba:State"
+					}
+				},
+				"County": {
+					"dimensions": {
+						"concept": "sba:County"
+					}
+				},
+				"Zip": {
+					"dimensions": {
+						"concept": "sba:Zip"
+					}
+				},
+				"Whether_you_are_presently_subject_to_an_indictment_criminal_information_arraignment_or_other_means_by_which_formal_criminal_charges_are_brought_in_any_jurisdiction": {
+					"dimensions": {
+						"concept": "sba:WhetherSubjectToFormalCriminalCharges"
+					}
+				},
+				"Whether_you_have_been_arrested_in_the_past_six_months_for_any_criminal_offense": {
+					"dimensions": {
+						"concept": "sba:WhetherArrestedInThePastSixMonthsForAnyCriminalOffense"
+					}
+				},
+				"Whether_for_any_criminal_offense_other_than_a_minor_vehicle_violation_have_you_ever_been_convicted_plead_guilty_plead_contendere_been_placed_on_pretrial_diversion_or_been_placed_on_any_form_of_parole_or_probation_including_probation_before_judgment": {
+					"dimensions": {
+						"concept": "sba:WhetherConvictedPleadGuiltyPlacedOnParol"
+					}
+				}
+			},
+			"dimensions": {
+				"sba:BusinessOwnerorAgentAxis": "$rowNumber"
+			}
+		},
+		"additional_information_template": {
+			"columns": {
+				"Whether_in_the_past_year__the_business_or_a_listed_owner_been_convicted_of_a_criminal_offense": {
+					"dimensions": {
+						"concept": "sba:WhetherConvictedWithCrimialOffense"
+					}
+				},
+				"Whether_the_applicant_or_any_listed_owner_currently_suspended_or_debarred_from_contracting_with_the_Federal_government_or_receiving_Federal_grants_or_loans": {
+					"dimensions": {
+						"concept": "sba:WhetherFederalGrantsSuspendedOrDebarred"
+					}
+				},
+				"Whether_like_to_be_considered_for_an_advance_of_up_to_10000": {
+					"dimensions": {
+						"concept": "sba:WhetheToBeConsideredForAdvanceUpto10000"
+					}
+				},
+				"Bank_Name": {
+					"dimensions": {
+						"concept": "sba:BankName"
+					}
+				},
+				"Account_Number": {
+					"dimensions": {
+						"concept": "sba:AccountNumber"
+					}
+				},
+				"Routing_Number": {
+					"dimensions": {
+						"concept": "sba:RoutingNumber"
+					}
+				},
+				"Name_of_Individual_Assisted_in_Application_Completion": {
+					"dimensions": {
+						"concept": "sba:NameOfIndividualAssistedinApplicationCompletion"
+					}
+				},
+				"Name_of_Company_Assisted_in_Application_Completion": {
+					"dimensions": {
+						"concept": "sba:NameOfCompanyAssistedInApplicationCompletion"
+					}
+				},
+				"Phone_Number_of_Company_Assisted_in_Application_Completion": {
+					"dimensions": {
+						"concept": "sba:PhoneNumberOfCompanyAssistedinApplicationCompletion"
+					}
+				},
+				"Address_of_Company_Assisted_in_Application_Completion": {
+					"dimensions": {
+						"concept": "sba:AddressNumberOfCompanyAssistedinApplicationCompletion"
+					}
+				},
+				"Fee_Charged_or_Agreed_Upon_For_Application_Completion_Assistance": {
+					"dimensions": {
+						"concept": "sba:FeeChargedOrAgreedUponForApplicationCompletionAssistance",
+						"unit": "iso4217:USD"
+					}
+				},
+				"Whether_Permission_given_for_SBA_to_Discuss_Any_Portion_of_Application_Representative_Who_Assisted_in_Application_Completion": {
+					"dimensions": {
+						"concept": "sba:WhetherPermissiongivenforSBAtoDiscussAnyPortionofApplicationRepresentativeWhoAssistedinApplicationCompletion"
+					}
+				}
+			},
+			"transposed": true
+		}
+	},
+	"tables": {
+		"business_information_data": {
+			"template": "business_information_template",
+			"url": "business_information_facts.csv"
+		},
+		"business_owners_information_data": {
+			"template": "business_owners_information_template",
+			"url": "business_owners_information_facts.csv"
+		},
+		"additional_information_data": {
+			"template": "additional_information_template",
+			"url": "additional_information_facts.csv"
+		}
+	},
+	"parameterURL": "https://raw.githubusercontent.com/xbrlus/loan-app/v0.1/sample/report_parameters_sba.csv",
+	"dimensions": {
+		"entity": "$EI"
+	}
+}

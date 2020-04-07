@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+                <tp:taxonomyPackage xml:lang="en" xmlns:tp="http://xbrl.org/2016/taxonomy-package" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://xbrl.org/2016/taxonomy-package http://www.xbrl.org/2016/taxonomy-package.xsd">
+	                <tp:identifier>https://www.sba.gov/taxonomy/2020-04-30</tp:identifier>
+	                <tp:name>SBA_20200430</tp:name>
+	                <tp:description>COVID-19 Disaster Loan Application - POC Taxonomy </tp:description>
+	                <tp:version>2020-04-30</tp:version>
+	                <tp:publisher>U.S. Small Business Administration (SBA)</tp:publisher>
+	                <tp:publisherURL>https://www.sba.gov/</tp:publisherURL>
+	                <tp:publisherCountry>US</tp:publisherCountry>
+	                <tp:publicationDate>2020-04-30</tp:publicationDate>  
+	                <tp:entryPoints>
+		                <tp:entryPoint>
+			                <tp:name>COVID-19 Disaster Loan Application</tp:name>
+			                <tp:description>Entry point to be used to load COVID-19 Disaster Loan Application</tp:description>
+							<tp:entryPointDocument href="https://www.sba.gov/taxonomy/2020-04-30/elts.xsd"/>
+	                    </tp:entryPoint>	
+                    </tp:entryPoints>	
+                    </tp:taxonomyPackage>

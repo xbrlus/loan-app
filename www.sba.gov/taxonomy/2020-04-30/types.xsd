@@ -1,0 +1,103 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" 
+        xmlns:xbrli="http://www.xbrl.org/2003/instance" 
+          xmlns:link="http://www.xbrl.org/2003/linkbase" 
+  xmlns:xlink="http://www.w3.org/1999/xlink" 
+  xmlns:sba-types="https://www.sba.gov/taxonomy/2020-04-30/types" 
+    targetNamespace="https://www.sba.gov/taxonomy/2020-04-30/types" 
+  elementFormDefault="qualified"
+  attributeFormDefault="unqualified">
+   <xs:import namespace="http://www.xbrl.org/2003/instance" schemaLocation="http://www.xbrl.org/2003/xbrl-instance-2003-12-31.xsd" />
+  
+  <xs:complexType name="US-States">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:tokenItemType">
+		<xs:enumeration value="Alabama"/>
+		<xs:enumeration value="Alaska"/>
+		<xs:enumeration value="Arizona"/>
+		<xs:enumeration value="Arkansas"/>
+		<xs:enumeration value="California"/>
+		<xs:enumeration value="Colorado"/>
+		<xs:enumeration value="Connecticut"/>
+		<xs:enumeration value="Delaware"/>
+		<xs:enumeration value="District Of Columbia"/>
+		<xs:enumeration value="Florida"/>
+		<xs:enumeration value="Georgia"/>
+		<xs:enumeration value="Hawaii"/>
+		<xs:enumeration value="Idaho"/>
+		<xs:enumeration value="Illinois"/>
+		<xs:enumeration value="Indiana"/>
+		<xs:enumeration value="Iowa"/>
+		<xs:enumeration value="Kansas"/>
+		<xs:enumeration value="Kentucky"/>
+		<xs:enumeration value="Louisiana"/>
+		<xs:enumeration value="Maine"/>
+		<xs:enumeration value="Maryland"/>
+		<xs:enumeration value="Massachusetts"/>
+		<xs:enumeration value="Michigan"/>
+		<xs:enumeration value="Minnesota"/>
+		<xs:enumeration value="Mississippi"/>
+		<xs:enumeration value="Missouri"/>
+		<xs:enumeration value="Montana"/>
+		<xs:enumeration value="Nebraska"/>
+		<xs:enumeration value="Nevada"/>
+		<xs:enumeration value="New Hampshire"/>
+		<xs:enumeration value="New Jersey"/>
+		<xs:enumeration value="New Mexico"/>
+		<xs:enumeration value="New York"/>
+		<xs:enumeration value="North Carolina"/>
+		<xs:enumeration value="North Dakota"/>
+		<xs:enumeration value="Ohio"/>
+		<xs:enumeration value="Oklahoma"/>
+		<xs:enumeration value="Oregon"/>
+		<xs:enumeration value="Pennsylvania"/>
+		<xs:enumeration value="Puerto Rico"/>
+		<xs:enumeration value="Rhode Island"/>
+		<xs:enumeration value="South Carolina"/>
+		<xs:enumeration value="South Dakota"/>
+		<xs:enumeration value="Tennessee"/>
+		<xs:enumeration value="Texas"/>
+		<xs:enumeration value="Utah"/>
+		<xs:enumeration value="Vermont"/>
+		<xs:enumeration value="Virgin Islands"/>
+		<xs:enumeration value="Virginia"/>
+		<xs:enumeration value="Washington"/>
+		<xs:enumeration value="West Virginia"/>
+		<xs:enumeration value="Wisconsin"/>
+		<xs:enumeration value="Wyoming"/>
+      </xs:restriction>
+    </xs:simpleContent>
+	</xs:complexType>
+	
+	<xs:complexType name="BusinessActivity">
+    <xs:simpleContent>
+      <xs:restriction base="xbrli:tokenItemType">
+		<xs:enumeration value="Agriculture"/>
+<xs:enumeration value="Automotive Repair"/>
+<xs:enumeration value="Automotive Sales and Gas Service Stations"/>
+<xs:enumeration value="Business Services"/>
+<xs:enumeration value="Communications"/>
+<xs:enumeration value="Construction and Contractors"/>
+<xs:enumeration value="Eating and Drinking Places"/>
+<xs:enumeration value="Educational Services"/>
+<xs:enumeration value="Entertainment Services"/>
+<xs:enumeration value="Faith Based Organization"/>
+<xs:enumeration value="Finance"/>
+<xs:enumeration value="Food and Beverage Stores"/>
+<xs:enumeration value="Freight"/>
+<xs:enumeration value="Health Services"/>
+<xs:enumeration value="Hotels and Lodging"/>
+<xs:enumeration value="Insurance"/>
+<xs:enumeration value="Legal Services"/>
+<xs:enumeration value="Manufacturing"/>
+<xs:enumeration value="Mining and Natural Resource Extraction"/>
+<xs:enumeration value="Miscellaneous Services"/>
+<xs:enumeration value="Personal Services"/>
+<xs:enumeration value="Real Estate"/>
+<xs:enumeration value="Retail"/>
+<xs:enumeration value="StorageTransportation"/>
+<xs:enumeration value="Wholesale"/>
+      </xs:restriction>
+    </xs:simpleContent>
+	</xs:complexType>
+	
+	</xs:schema>
