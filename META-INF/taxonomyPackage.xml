@@ -12,7 +12,7 @@
 		                <tp:entryPoint>
 			                <tp:name>COVID-19 Disaster Loan Application</tp:name>
 			                <tp:description>Entry point to be used to load COVID-19 Disaster Loan Application</tp:description>
-							<tp:entryPointDocument href="https://www.sba.gov/taxonomy/2020-04-30/elts.xsd"/>
+							<tp:entryPointDocument href="https://www.sba.gov/taxonomy/2020-04-30"/>
 	                    </tp:entryPoint>	
                     </tp:entryPoints>	
                     </tp:taxonomyPackage>

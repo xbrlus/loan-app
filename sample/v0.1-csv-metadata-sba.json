@@ -349,7 +349,7 @@
 			"url": "additional_information_facts.csv"
 		}
 	},
-	"parameterURL": "https://raw.githubusercontent.com/xbrlus/loan-app/v0.1/sample/report_parameters_sba.csv",
+	"parameterURL": "report_parameters_sba.csv",
 	"dimensions": {
 		"entity": "$EI"
 	}

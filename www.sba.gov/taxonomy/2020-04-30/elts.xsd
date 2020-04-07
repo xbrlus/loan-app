@@ -71,6 +71,9 @@
       namespace="http://xbrl.org/2005/xbrldt"
       schemaLocation="http://www.xbrl.org/2005/xbrldt-2005.xsd"/>
     <xs:import
+      namespace="https://www.sba.gov/taxonomy/2020-04-30"
+      schemaLocation="elts.xsd"/>
+    <xs:import
       namespace="https://www.sba.gov/taxonomy/2020-04-30/types"
       schemaLocation="types.xsd"/>
     <xs:element

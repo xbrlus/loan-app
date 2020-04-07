@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--extracted from OIM D:\XII\Specs\GitLab\sba\us-sba\disaster-loan-assistance\xbrl-csv\csv-metadata-sba.json-->
+<!--extracted from OIM D:\DJT\Documents\GitHub\XBRLUS\loan-app\sample\v0.1-csv-metadata-sba.json-->
 <xbrl
   xmlns="http://www.xbrl.org/2003/instance"
   xmlns:iso4217="http://www.xbrl.org/2003/iso4217"
@@ -8,7 +8,7 @@
   xmlns:xbrldi="http://xbrl.org/2006/xbrldi"
   xmlns:xlink="http://www.w3.org/1999/xlink">
     <link:schemaRef
-      xlink:href="https://www.sba.gov/taxonomy/2020-04-30/elts.xsd"
+      xlink:href="https://raw.githubusercontent.com/xbrlus/loan-app/v0.1/www.sba.gov/taxonomy/2020-04-30/elts.xsd"
       xlink:type="simple"/>
     <context id="c-01">
         <entity>
@@ -20,7 +20,7 @@
     </context>
     <sba:EntityCurrentLegalOrRegisteredName
       contextRef="c-01"
-      id="business_information_data.1.Entity_current_legal_or_registered_name">ABC Small Business</sba:EntityCurrentLegalOrRegisteredName>
+      id="business_information_data.1.Entity_current_legal_or_registered_name">Small Business LLP</sba:EntityCurrentLegalOrRegisteredName>
     <sba:EINSoleProprietorship
       contextRef="c-01"
       id="business_information_data.1.EIN_for_Sole_Proprietorship">123456789</sba:EINSoleProprietorship>
@@ -84,13 +84,13 @@
     </context>
     <sba:DateBusinessEstablished
       contextRef="c-02"
-      id="business_information_data.1.Date_Business_Established">2018-01-31</sba:DateBusinessEstablished>
+      id="business_information_data.1.Date_Business_Established">2017-12-31</sba:DateBusinessEstablished>
     <sba:CurrentOwnershipSince
       contextRef="c-02"
-      id="business_information_data.1.Current_Ownership_Since">2018-01-31</sba:CurrentOwnershipSince>
+      id="business_information_data.1.Current_Ownership_Since">2017-12-31</sba:CurrentOwnershipSince>
     <sba:BusinessActivity
       contextRef="c-01"
-      id="business_information_data.1.Business_Activity">Legal Services</sba:BusinessActivity>
+      id="business_information_data.1.Business_Activity">Automotive Repair</sba:BusinessActivity>
     <unit id="u-02">
         <measure>pure</measure>
     </unit>
@@ -114,10 +114,10 @@
     </context>
     <sba:FirstName
       contextRef="c-03"
-      id="business_owners_information_data.1.First_Name">John</sba:FirstName>
+      id="business_owners_information_data.1.First_Name">Glenn</sba:FirstName>
     <sba:LastName
       contextRef="c-03"
-      id="business_owners_information_data.1.Last_Name">Smith</sba:LastName>
+      id="business_owners_information_data.1.Last_Name">Smalls</sba:LastName>
     <sba:MobilePhone
       contextRef="c-03"
       id="business_owners_information_data.1.Mobile_Phone">917-555-5555</sba:MobilePhone>
@@ -129,7 +129,7 @@
       id="business_owners_information_data.1.Ownership_Percent">100</sba:OwnershipPercent>
     <sba:EmailAddress
       contextRef="c-03"
-      id="business_owners_information_data.1.Email_Address">JohnSmith@gmail.com</sba:EmailAddress>
+      id="business_owners_information_data.1.Email_Address">GlennSmalls@gmail.com</sba:EmailAddress>
     <sba:SSN
       contextRef="c-03"
       id="business_owners_information_data.1.SSN">333-33-3333</sba:SSN>
@@ -148,7 +148,7 @@
     </context>
     <sba:DateOfBirth
       contextRef="c-04"
-      id="business_owners_information_data.1.Date_Of_Birth">1990-01-10</sba:DateOfBirth>
+      id="business_owners_information_data.1.Date_Of_Birth">12/31/1990</sba:DateOfBirth>
     <sba:PlaceOfBirth
       contextRef="c-03"
       id="business_owners_information_data.1.Place_Of_Birth">Sacramento, CA</sba:PlaceOfBirth>
@@ -190,7 +190,7 @@
       id="additional_information_data.1.Whether_like_to_be_considered_for_an_advance_of_up_to_10000">false</sba:WhetheToBeConsideredForAdvanceUpto10000>
     <sba:BankName
       contextRef="c-01"
-      id="additional_information_data.1.Bank_Name">Wells Fargo</sba:BankName>
+      id="additional_information_data.1.Bank_Name">Citibank</sba:BankName>
     <sba:AccountNumber
       contextRef="c-01"
       id="additional_information_data.1.Account_Number">765432123</sba:AccountNumber>
